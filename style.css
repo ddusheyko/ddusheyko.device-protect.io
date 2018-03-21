@@ -1,0 +1,32 @@
+[type="radio"]:not(:checked) + label {
+    padding-right: 26px;
+}
+[type="radio"]:checked + label {
+    padding-right: 26px;
+}
+[type="radio"] + label::before, [type="radio"] + label::after {
+    right: 0;left:unset;
+}
+label::before, [type="radio"] + label::after {
+    right: 0;left:unset;
+}
+
+.collection-item {
+    background-color: white !important;
+    color: black !important;
+    padding: 0em !important;
+}
+
+.collapsible-header {
+    padding: 0em !important;
+}
+
+.collapsible-header.row {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    margin: 0px !important;
+}
+
+.collapsible-body {
+    padding: 0em !important;
+}
