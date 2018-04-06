@@ -8,9 +8,22 @@ label::before, [type="radio"] + label::after {
 .collection-item {
     background-color: white !important;
     color: black !important;
-    padding: 0em !important;
+    padding: 0em !important; 
 }
 
+.collection-item .collection-item-details {
+    padding: 1em;
+    list-style-type: disc !important;
+}
+
+.collection-item .collection-item-details > li{
+    list-style-type: disc !important;
+}
+
+.collection-item .collection-item-image {
+    width: 100%; 
+    padding: 0px 10px 20px 10px;
+}
 
 .collapsible-header {
     padding: 0;
@@ -46,4 +59,8 @@ label::before, [type="radio"] + label::after {
 
 .expandable {
     margin-left: .5rem;
+}
+
+.color-green {
+    color: green;
 }
