@@ -65,3 +65,6 @@ label::before, [type="radio"] + label::after {
     color: green;
 }
 
+.top {
+    vertical-align: top;
+}
