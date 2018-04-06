@@ -1,10 +1,12 @@
-$(function() {
+$(document).ready(function(){
+
   // Initialize collapse button
   $("[data-activates='slide-out']").sideNav();
   // Initialize collapsible (uncomment the line below if you use the dropdown variation)
   //$('.collapsible').collapsible();
   var prices = {
     st_m: '7.99',
+    st_m2: '7.99',
     st_2y: '99.00',
     v_total: '9.00',
     v_decline: '0.00',
@@ -29,4 +31,14 @@ $(function() {
     var was_active = $(this).hasClass('active');
     $('.expandable').text(was_active ? 'add': 'remove');
   });
+
+  if(window.location.href.split("?")[1] == "demo=1") {
+    $('#demo-1').show()
+    $('#demo-2').hide()
+  } else {
+    $('#demo-2').show()
+    $('#demo-1').hide()
+  }
+  
+  $('.modal').modal();
 });
