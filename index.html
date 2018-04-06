@@ -46,11 +46,24 @@
         <form action="#">
             <ul class="collection collapsible" data-collapsible="accordion">
 
-                <li class="collection-item row">
+                <li id="demo-1" class="collection-item row">
                     <p>
-                    <div class="col t4 s2 m1 l1 center-align lock-col"><i class="small material-icons">lock</i></div>
+                    <div class="col t4 s2 m1 l1 center-align lock-col">
+                        <img height="80px" src="./assets/images/square_trade_icon.png" class="collection-item-image">
+                    </div>
                     <div class="col t4 s8 m10 l10">
                         <div class="title">SquareTrade - Monthly Accident Protection Plan</div>
+                        <ul class="collection-item-details">
+                            <li>
+                                <i class="tiny material-icons">radio_button_checked</i><span> Preferred Protection Plan Option</span>
+                            </li>
+                            <li>
+                                <i class="tiny material-icons">radio_button_checked</i><span> Covers accidents like drops and spills</span>
+                            </li>
+                            <li>
+                                <i class="tiny material-icons">radio_button_checked</i><span> Same-day repairs where available</span>
+                            </li>
+                        </ul>
                         <div class="price grey-text">$7.99 per month</div>
                     </div>
                     <div class="col t4 s2 m1 l1 radio-col">
@@ -59,10 +72,63 @@
                     </div>
                 </li>
 
+                <li id="demo-2" class="collection-item row">
+                    <p>
+                    <div class="col t4 s2 m1 l1 center-align lock-col">
+                        <img height="80px" src="./assets/images/square_trade_icon.png" class="collection-item-image">
+                    </div>
+                    <div class="col t4 s8 m10 l10">
+                        <div class="title">SquareTrade - Monthly Accident Protection Plan 
+                            <!-- Modal Trigger -->
+                            <a class="waves-effect waves-light modal-trigger" href="#modal1">(click here for more details)</a>
+                            <!-- Modal Structure -->
+                            <div id="modal1" class="modal">
+                                <div class="modal-content">
+                                    <h4>Details</h4>
+                                    <ul class="collection-item-details">
+                                        <li>
+                                            <i class="tiny material-icons">radio_button_checked</i><span> Preferred Protection Plan Option</span>
+                                        </li>
+                                        <li>
+                                            <i class="tiny material-icons">radio_button_checked</i><span> Covers accidents like drops and spills</span>
+                                        </li>
+                                        <li>
+                                            <i class="tiny material-icons">radio_button_checked</i><span> Same-day repairs where available</span>
+                                        </li>
+                                    </ul>                                    
+                                </div>
+                                <div class="modal-footer">
+                                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                                </div>
+                            </div>                           
+                        </div>
+                        <div class="price grey-text">$7.99 per month</div>
+                    </div>
+                    <div class="col t4 s2 m1 l1 radio-col">
+                        <input class="with-gap" name="plan" type="radio" id="st_m2" />
+                        <label for="st_m2"></label>
+                    </div>
+                </li>
+
+                <li class="collection-item row">
+                    <p>
+                    <div class="col t4 s2 m1 l1 center-align lock-col">
+                        <img height="80px" src="./assets/images/apple_care_icon.png" class="collection-item-image">
+                    </div>
+                    <div class="col t4 s8 m10 l10">
+                        <div class="title">S6366LL/A Apple Care Plus iPhone</div>
+                        <div class="price grey-text">$129.00 due today</div>
+                    </div>
+                    <div class="col t4 s2 m1 l1 radio-col">
+                        <input class="with-gap" name="plan" type="radio" id="apple" />
+                        <label for="apple"></label>
+                    </div>
+                    </p>
+                </li>
+                
                 <li class="collection-item">
                     <div class="collapsible-header row">
                         <p>
-                        <div class="col t4 s2 m1 l1 center-align lock-col white-text"><i class="small material-icons">lock</i></div>
                         <div class="col t4 s8 m10 l10">
                             <div class="title">See more options</div>
                         </div>
@@ -76,7 +142,8 @@
 
                             <li class="collection-item row">
                                 <p>
-                                <div class="col t4 s2 m1 l1 center-align lock-col"><i class="small material-icons">lock</i></div>
+                                <div class="col t4 s2 m1 l1 center-align lock-col">
+                                </div>
                                 <div class="col t4 s8 m10 l10">
                                     <div class="title">Verizon Total Equipment Coverage - Smarthphone</div>
                                     <div class="price grey-text">$9.00 per month</div>
@@ -90,7 +157,8 @@
 
                             <li class="collection-item row">
                                 <p>
-                                <div class="col t4 s2 m1 l1 center-align lock-col"><i class="small material-icons">lock</i></div>
+                                <div class="col t4 s2 m1 l1 center-align lock-col">
+                                </div>
                                 <div class="col t4 s8 m10 l10">
                                     <div class="title">Verizon Decline Insurance</div>
                                     <div class="price grey-text">$0.00 per month</div>
@@ -104,7 +172,8 @@
 
                             <li class="collection-item row">
                                 <p>
-                                <div class="col t4 s2 m1 l1 center-align lock-col"><i class="small material-icons">lock</i></div>
+                                <div class="col t4 s2 m1 l1 center-align lock-col">
+                                </div>
                                 <div class="col t4 s8 m10 l10">
                                     <div class="title">Verizon Extended Warranty</div>
                                     <div class="price grey-text">$3.00 per month</div>
@@ -118,7 +187,8 @@
 
                             <li class="collection-item row">
                                 <p>
-                                <div class="col t4 s2 m1 l1 center-align lock-col"><i class="small material-icons">lock</i></div>
+                                <div class="col t4 s2 m1 l1 center-align lock-col">
+                                </div>
                                 <div class="col t4 s8 m10 l10">
                                     <div class="title">Verizon Tech Coach</div>
                                     <div class="price grey-text">$7.00 per month</div>
@@ -132,7 +202,8 @@
 
                             <li class="collection-item row">
                                 <p>
-                                <div class="col t4 s2 m1 l1 center-align lock-col"><i class="small material-icons">lock</i></div>
+                                <div class="col t4 s2 m1 l1 center-align lock-col">
+                                </div>
                                 <div class="col t4 s8 m10 l10">
                                     <div class="title">Verizon Total Mobile Protection (Excludes Florida)</div>
                                     <div class="price grey-text">$11.00 per month</div>
@@ -146,7 +217,8 @@
 
                             <li class="collection-item row">
                                 <p>
-                                <div class="col t4 s2 m1 l1 center-align lock-col"><i class="small material-icons">lock</i></div>
+                                <div class="col t4 s2 m1 l1 center-align lock-col">
+                                </div>
                                 <div class="col t4 s8 m10 l10">
                                     <div class="title">Verizon Total Mobile Protection (Florida Only)</div>
                                     <div class="price grey-text">$11.00 per month</div>
@@ -160,7 +232,8 @@
 
                             <li class="collection-item row">
                                 <p>
-                                <div class="col t4 s2 m1 l1 center-align lock-col"><i class="small material-icons">lock</i></div>
+                                <div class="col t4 s2 m1 l1 center-align lock-col">
+                                </div>
                                 <div class="col t4 s8 m10 l10">
                                     <div class="title">Verizon Wireless Phone Protection</div>
                                     <div class="price grey-text">$7.15 per month</div>
@@ -172,20 +245,6 @@
                                 </p>
                             </li>
 
-                            <li class="collection-item row">
-                                <p>
-                                <div class="col t4 s2 m1 l1 center-align lock-col"><i class="small material-icons">lock</i></div>
-                                <div class="col t4 s8 m10 l10">
-                                    <div class="title">S6366LL/A Apple Care Plus iPhone</div>
-                                    <div class="price grey-text">$129.00 due today</div>
-                                </div>
-                                <div class="col t4 s2 m1 l1 radio-col">
-                                    <input class="with-gap" name="plan" type="radio" id="apple" />
-                                    <label for="apple"></label>
-                                </div>
-                                </p>
-                            </li>
-
                         </ul>
                     </div>
                 </li>
@@ -193,7 +252,8 @@
 
                 <li class="collection-item row">
                     <p>
-                    <div class="col t4 s2 m1 l1 center-align lock-col"><i class="small material-icons">lock</i></div>
+                    <div class="col t4 s2 m1 l1 center-align lock-col">
+                    </div>
                     <div class="col t4 s8 m10 l10">
                         <div class="title">None</div>
                         <div class="price grey-text">$0.00 per month</div>
